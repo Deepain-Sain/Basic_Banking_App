@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/imagefinal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnViewUsers"
+        android:layout_width="204dp"
+        android:layout_height="58dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#673AB7"
+        android:paddingHorizontal="5dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="10dp"
+        android:paddingVertical="5dp"
+        android:text="View Accounts"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textStyle="bold"></Button>
+
+</LinearLayout>
